@@ -9,7 +9,7 @@ This repository contains the code for the backend and frontend of the Dev Test p
   - Maven 3.x
   ### Installation
   - Clone the repository
-  - Navigate to the backenddevtest directory
+  - Navigate to the BackendDevTest directory
   - Run ``mvn clean install``
   - The WAR file will be generated in the *target* directory
   
@@ -21,7 +21,7 @@ This repository contains the code for the backend and frontend of the Dev Test p
   - npm 6.x or higher
   ## Installation
   - Clone the repository
-  - Navigate to the frontenddevtest directory
+  - Navigate to the FrontEndDevtest directory
   - Run ``npm i`` to install dependencies
   ## Running
   - Navigate to the frontenddevtest directory
