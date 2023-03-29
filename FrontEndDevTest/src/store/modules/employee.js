@@ -14,22 +14,18 @@ const getters = {
 }
 const actions = {
     loadEmployees: function({commit},payload){
-        console.log(payload, "HOLA")
         api.getAll('',payload)
         .then(res => {
             commit('setEmployeesToState',res.data)
         }).catch(error => {
-            console.log(error)
             commit('setErrorEmployee',error)
         });
     },
     loadIndividualEmployee:function({commit},payload){
 
-        console.log(payload)
         api.get(payload.id).then(res => {
             commit('setEmployee',res.data)
         }).catch(error => {
-            console.log(error)
             commit('setErrorEmployee',error)
         });
     },

@@ -58,7 +58,6 @@ export default {
     }
   },created: function() {
     this.$store.subscribe((mutation, state) => {
-      console.log(mutation.type)
       if (mutation.type == "setErrorEmployee") {
         this.error = this.getErrorEmployee();
         this.errorFlag = true;
