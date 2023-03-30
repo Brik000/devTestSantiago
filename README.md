@@ -5,7 +5,7 @@ This repository contains the code for the backend and frontend of the Dev Test p
 ## Backend
  ### Prerequisites
 
-  - Java 11
+  - Java 17
   - Maven 3.x
   ### Installation
   - Clone the repository
